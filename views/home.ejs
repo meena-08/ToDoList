@@ -26,8 +26,8 @@
                 <thead>
                   <tr class="table-active">
                     <th >Add Task</th>
-                    <th >category</th>
-                    <th >date</th>
+                    <th >Category</th>
+                    <th >Date</th>
                     <th ></th>
                   </tr>
                 </thead>
@@ -36,13 +36,13 @@
                 <tbody>
                     <tr>
                       <td> <input type="text" name="description"placeholder="What do you need to do?" required></input></th>
-                      <td >  <select name="category"   required>
+                      <td >  <select name="category" required>
 
-                        <option  >PERSONAL</option>
-                        <option>WORK</option>
-                        <option>SCHOOL</option>
-                        <option>CLEANING</option>
-                        <option>OTHER</option>
+                        <option>Personal</option>
+                        <option>Work</option>
+                        <option>School</option>
+                        <option>Cleaning</option>
+                        <option>Other</option>
 
                     </select></th>
                       <td > <input type="date" name="date" required></th>
@@ -64,7 +64,7 @@
                               <th>Select</th>
                               <th>Task</th>
                               <th>Category</th>
-                            <th>due date</th>
+                            <th>Due Date</th>
                             </tr>
                           </thead>
                         <% for(let i of task) { %>
